@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
-// import Form from "./components/"; Importing component
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import Thumbnails from "./components/Thumbnails";
+import Footer from "./components/Footer";
 
-// const App = () => <Form />;
+
+const App = () => (
+
+  <div>
+
+    <Navbar />
+    <Jumbotron />
+    <Thumbnails />
+    <Footer />
+
+  </div>
+
+);
 
 export default App;
