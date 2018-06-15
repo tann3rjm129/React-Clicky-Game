@@ -6,7 +6,7 @@ const Footer = () => (
 
     <div>
 
-        <footer class="page-footer font-small blue pt-4 mt-4">
+        <footer class="page-footer font-small red pt-4 mt-4">
 
             <div class="container-fluid text-center text-md-left">
 

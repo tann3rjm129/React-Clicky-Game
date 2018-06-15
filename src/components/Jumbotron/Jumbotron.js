@@ -8,7 +8,7 @@ const Jumbotron = () => (
 
         <div class="row mb-5">
             <div class="col-md-12">
-                <div class="card card-image">
+                <div class="card card-image backgroundImage">
                     <div class="text-white text-center rgba-stylish-strong py-5 px-4">
                         <div class="py-5">
 
