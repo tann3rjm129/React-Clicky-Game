@@ -1,43 +1,25 @@
 import React from "react";
+import "./Thumbnails.css";
 
-const Thumbnails = () => (
+const Thumbnails = props => (
 
     <div>
 
-        <div class="container">
 
-            <div class="row">
 
-                <div class="col-md-3">
+        <div className="col-md-4">
 
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pK0QZ1eH5gNF2pQDOkCTDUpntQlLvX58q95vd2jnFsJtvfU-" alt="placeholder" class="img-thumbnail"></img>
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pK0QZ1eH5gNF2pQDOkCTDUpntQlLvX58q95vd2jnFsJtvfU-" alt="placeholder" class="img-thumbnail"></img>
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pK0QZ1eH5gNF2pQDOkCTDUpntQlLvX58q95vd2jnFsJtvfU-" alt="placeholder" class="img-thumbnail"></img>
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pK0QZ1eH5gNF2pQDOkCTDUpntQlLvX58q95vd2jnFsJtvfU-" alt="placeholder" class="img-thumbnail"></img>
-
-                </div>
+            <div className="imgContainer">
+                {/* Where the character images would be placed @ src */}
+                <img src={props.image} alt={props.name} class="img-thumbnail img"></img>
 
             </div>
-
         </div>
+
+
 
     </div>
 
-);
+)
 
 export default Thumbnails;

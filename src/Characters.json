@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Stan",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/stan-marsh.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Cartman",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/eric-cartman.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Kyle",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-broflovski.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Kenny",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/kenny-mccormick.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Butters",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/kids/butters-stotch.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "PC Principal",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/adults/education-pc-principal.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Randy",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/adults/randy-marsh.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Shelia",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/adults/sheila-broflovski.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Big Gay Al",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/adults/lgbt-community-big-gay-al.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Mel Gibson",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/celebrities/celebrities-mel-gibson.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Paris Hilton",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/celebrities/paris-hilton.png?height=165",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "Terrance",
+        "image": "http://southparkstudios.mtvnimages.com/shared/characters/celebrities/terrance.png?height=165",
+        "clicked": false
+    }
+]
