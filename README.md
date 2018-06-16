@@ -10,7 +10,7 @@ React,mdb bootstrap, javascript, html/css
 
 ## Link
 
-link: https://tann3rjm129.github.io/React-Clicky-Game/
+link: https://thawing-stream-68596.herokuapp.com/
 
 
 
