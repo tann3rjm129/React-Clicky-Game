@@ -1,10 +1,20 @@
 
 .nav {
-    height: 50px;
-    background-color: #04e604;
+    height: 80px;
+    background-color: #3e3e3e;
     color: white;
 }
 
 .marginTop {
     margin-top: 5px;
+    margin-left: -40px;
+}
+
+.navBarImage {
+    height: 50px;
+    width:50pc;
+}
+
+.headerText {
+    font-size: 36px;
 }

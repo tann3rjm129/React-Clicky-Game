@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Thumbnails from "./components/Thumbnails";
 import Footer from "./components/Footer";
-import Characters from "./Characters"
+import Characters from "./Characters";
 import "./App.css";
 
 
@@ -65,13 +65,13 @@ class App extends Component {
   render() {
     return (
 
-      <div>
+      <div className="background">
 
         <Navbar />
         <Jumbotron />
-        {/* <div class="container"> */}
         <div className="row justify-content-center">
-          <h1> Current Score: {currentScore} | Top Score: {topScore} </h1>
+          <span class="badge badge-pill orange font bottom">Current Score: {currentScore}</span>
+          <span class="badge badge-pill orange font left bottom">Top Score: {topScore} </span>
         </div>
         <div className="row">
           {this.state.Characters.map(Character => (
@@ -84,7 +84,6 @@ class App extends Component {
             />
           ))}
         </div>
-        {/* </div> */}
         <Footer />
 
       </div>

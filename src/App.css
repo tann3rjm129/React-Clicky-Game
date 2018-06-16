@@ -1,0 +1,22 @@
+
+.background {
+    background-color:  #fc5f17;
+}
+
+.border {
+    border-bottom: 5px solid #fc5f17;
+}
+
+.font {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.left {
+    margin-left: 60px;
+}
+
+.bottom {
+    margin-bottom: 30px;
+}

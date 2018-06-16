@@ -5,28 +5,18 @@ import "./Jumbotron.css";
 const Jumbotron = () => (
 
     <div>
+        <div class="jumbotron backgroundImage JumboH text-center">
 
-        <div class="row mb-5">
-            <div class="col-md-12">
-                <div class="card card-image backgroundImage">
-                    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
-                        <div class="py-5">
+            <div className="card instructionMargin headerMargin">
+                <h1 class="h1-reponsive mb-3 instructionMargin font"><strong>
+                    Click a South Park Character Below to Start!
+            </strong></h1>
+                <p class="lead font2">The goal of the game is to click each of your favortie South Park characters below only once to earn a point. Be careful because once you click an image they shuffle. Click a charcter more than once and you start over. Good Luck!</p>
 
-                            <h6 class="orange-text font-bold"><i class="fa fa-camera-retro"></i> Photography</h6>
-                            <h2 class="card-title pt-3 mb-5 font-bold">Jumbotron with image overlay</h2>
-                            <p class="px-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
-                                fugiat, laboriosam, voluptatem, optio vero odio nam sit officia
-                                accusamus minus error nisi architecto nulla ipsum dignissimos.
-                                    Odit sed qui, dolorum!</p>
-                            <a class="btn peach-gradient"><i class="fa fa-clone left"></i> View project</a>
-
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-
     </div>
+
 
 );
 
