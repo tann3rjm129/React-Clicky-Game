@@ -10,7 +10,7 @@ React,mdb bootstrap, javascript, html/css
 
 ## Link
 
-link: 
+link: https://tann3rjm129.github.io/React-Clicky-Game/
 
 
 
